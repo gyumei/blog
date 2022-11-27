@@ -1,6 +1,6 @@
 <?php
 
-use Illuminate\Support\Facades\Route;    //追加
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,3 +12,7 @@ use Illuminate\Support\Facades\Route;    //追加
 |
 */
 Route::get('/', [PostController::class, 'index']);
+
+Route::get('/posts', [PostController::class, 'index']);
+
+Route::get('/posts/create', [PostController::class, 'create']);
