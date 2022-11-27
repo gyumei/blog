@@ -1,7 +1,6 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\PostController;      //追加
+use Illuminate\Support\Facades\Route;    //追加
 /*
 |--------------------------------------------------------------------------
 | Web Routes
