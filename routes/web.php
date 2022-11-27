@@ -11,9 +11,13 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+Route::get('/posts/{post}', [PostController::class ,'show']);
+
 Route::get('/', [PostController::class, 'index']);
 
 Route::get('/posts', [PostController::class, 'index']);
 
 Route::get('/posts/create', [PostController::class, 'create']);
+
 
